@@ -10,9 +10,10 @@ def main():
 
 
 def money_type():
-    money_in = input("""Please input the type of money you would like to have double for thirty
-                     days (penny, nickel, dime, quarter, one dollar, five dollars, ten dollars, 
-                     fifty dollars, one hundred dollars: """)
+    money_in = input(
+        """    Please input the type of money you would like to have double for thirty
+    days (penny, nickel, dime, quarter, one dollar, five dollars, ten dollars, 
+    fifty dollars, one hundred dollars: """)
     money_word = str(money_in)
     if money_word == "penny":
         money = float(0.01)
